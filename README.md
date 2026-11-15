@@ -29,26 +29,18 @@ Grant read-only scopes: `portfolio`, `history:orders`, `history:dividends`,
 `history:transactions` and account data. Never grant order permissions.
 
 ### 4. Create your `.env` file
-Create a file named `.env` in the project folder. Do not commit it. Paste this and fill in your values:
+Update a file named `.env` with Trading 212 key and secret.
+`.env` file is added in gitignore so it won't be committed automatically.
 ```
 # Trading 212 API keys (read-only). Leave a pair empty to skip that account.
-T212_ISA_KEY=
-T212_ISA_SECRET=
-T212_INVEST_KEY=
-T212_INVEST_SECRET=
+T212_ISA_KEY= <YOUR_KEY>
+T212_ISA_SECRET= <YOUR_SECRET>
+T212_INVEST_KEY= <YOUR_KEY>
+T212_INVEST_SECRET= <YOUR_SECRET>
 
 # Push alerts via ntfy. Use a long random topic name nobody else can guess.
-NTFY_TOPIC=
+NTFY_TOPIC= <NITFY_TOPIC>
 
-# Optional (defaults shown)
-# POLL_SECONDS=60
-# DROP_ALERT_PCT=10
-# ALERT_COOLDOWN_HOURS=6
-# MAX_WEIGHT_PCT=25
-# CURRENCY_SYMBOL=£
-# GBP_PER_USD=0.74
-# HOURLY_DAYS=90
-# HISTORY_ALERTS=1
 ```
 
 ### 5. Start the tracker
