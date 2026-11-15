@@ -1,0 +1,5 @@
+{"items":[{"reference":"t-1","dateTime":"2021-03-01T10:00:00Z","type":"DEPOSIT","amount":1000.0,"currency":"GBP"},
+{"reference":"t-2","dateTime":"2024-08-15T10:00:00Z","type":"DEPOSIT","amount":500.0,"currency":"GBP"},
+{"reference":"t-3","dateTime":"2025-09-01T10:00:00Z","type":"WITHDRAW","amount":-200.0,"currency":"GBP"},
+{"reference":"t-4","dateTime":"2025-09-02T10:00:00Z","type":"INTEREST_ON_FREE_CASH","amount":0.35,"currency":"GBP"}],
+"nextPagePath":null}

@@ -1,0 +1,14 @@
+{"items":[
+ {"order":{"id":1001,"ticker":"VUAG_EQ","side":"BUY","type":"MARKET","status":"FILLED","strategy":"VALUE",
+   "filledQuantity":3.2,"filledValue":291.84,"currency":"GBP","createdAt":"2025-04-02T09:30:00Z",
+   "initiatedFrom":"IOS","instrument":{"ticker":"VUAG_EQ","name":"Vanguard S&P 500 UCITS ETF","isin":"IE00BFMXXD54","currency":"GBP"}},
+  "fill":{"id":5001,"filledAt":"2025-04-02T09:30:02Z","price":91.20,"quantity":3.2,"tradingMethod":"TOTV","type":"TRADE",
+   "walletImpact":{"currency":"GBP","fxRate":1.0,"netValue":291.84,"realisedProfitLoss":0.0,"taxes":[]}}},
+ {"order":{"id":1002,"ticker":"AAPL_US_EQ","side":"SELL","type":"MARKET","status":"FILLED","strategy":"QUANTITY",
+   "quantity":2,"filledQuantity":2,"currency":"USD","createdAt":"2025-06-10T14:40:00Z","initiatedFrom":"WEB",
+   "instrument":{"ticker":"AAPL_US_EQ","name":"Apple","isin":"US0378331005","currency":"USD"}},
+  "fill":{"id":5002,"filledAt":"2025-06-10T14:40:01Z","price":200.0,"quantity":2,"tradingMethod":"TOTV","type":"TRADE",
+   "walletImpact":{"currency":"GBP","fxRate":0.74,"netValue":294.5,"realisedProfitLoss":41.2,
+     "taxes":[{"name":"CURRENCY_CONVERSION_FEE","quantity":0.44,"currency":"GBP","chargedAt":"2025-06-10T14:40:01Z"}]}}}
+ ],
+ "nextPagePath":"/api/v0/equity/history/orders?limit=50&cursor=1749566400000"}

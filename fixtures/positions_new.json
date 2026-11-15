@@ -1,0 +1,3 @@
+[{"averagePricePaid":91.2,"createdAt":"2021-03-02T09:30:00Z","currentPrice":101.5,"quantity":10,"quantityAvailableForTrading":10,
+"quantityInPies":0,"instrument":{"ticker":"VUAG_EQ","name":"Vanguard S&P 500 UCITS ETF","isin":"IE00BFMXXD54","currency":"GBP"},
+"walletImpact":{"currency":"GBP","currentValue":1015.0,"totalCost":912.0,"unrealizedProfitLoss":103.0,"fxImpact":null}}]

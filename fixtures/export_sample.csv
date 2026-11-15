@@ -1,0 +1,7 @@
+Action,Time,ISIN,Ticker,Name,Notes,ID,No. of shares,Price / share,Currency (Price / share),Exchange rate,Result (GBP),Total (GBP),Stamp duty reserve tax (GBP),Currency conversion fee (GBP),Transaction fee (GBP)
+Deposit,2025-01-10 10:00:00,,,,,,,,,,,1000.00,,,
+Market buy,2025-04-02 09:30:02,IE00BFMXXD54,VUAG,Vanguard S&P 500 UCITS ETF,,OR_1001,3.2,91.20,GBP,1,,291.84,0,0,0
+Market sell,2025-06-10 14:40:01,US0378331005,AAPL,Apple,,OR_1002,2,200.00,USD,0.74,41.20,294.50,0,0.44,0
+Dividend (Ordinary),2025-05-15 00:00:00,US0378331005,AAPL,Apple,,DIV_1,5,0.26,USD,,,1.07,0,0,0
+Stock split open,2025-07-01 00:00:00,US0378331005,AAPL,Apple,,SPL_1,,,,,,,,,
+Withdrawal,2025-09-01 10:00:00,,,,,,,,,,,200.00,,,
